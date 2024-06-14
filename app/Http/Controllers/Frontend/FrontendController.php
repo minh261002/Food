@@ -11,4 +11,9 @@ class FrontendController extends Controller
     {
         return view('frontend.home.index');
     }
+
+    public function adminLogin()
+    {
+        return view('backend.auth.login');
+    }
 }
